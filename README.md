@@ -1,5 +1,9 @@
 # Countries MongoDB
-Back-end desarrollado con node.js, MongoDB y express. Para correr la aplicación, ingresar al directorio y ejecutar el comando "node index.js". Abrir algún browser y entrar a la URL "localhost:8080/countries".
+Back-end desarrollado con node.js, MongoDB y express. Para correr la aplicación, ingresar al directorio y ejecutar el comando "node index.js". Abrir el browser deseado y entrar a la URL "localhost:8080/countries". Para ejecutar pruebas con PostMan:
+- Importar la coleccion con las pruebas a PostMan
+- 
+
+
 Se soportan todas las operaciones CRUD para las siguientes URLs:
 
 - GET localhost:8080/countries: obtiene la lista de todos los países
