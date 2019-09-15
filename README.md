@@ -2,6 +2,21 @@
 Back-end desarrollado con node.js, MongoDB y express. Para correr la aplicación, ingresar al directorio y ejecutar el comando "node index.js". Abrir algún browser y entrar a la URL "localhost:8080/countries".
 Se soportan todas las operaciones CRUD para las siguientes URLs:
 
-\begin{itemize}
-  \item hola
-\end{itemize}
+- GET localhost:8080/countries: obtiene la lista de todos los países
+- GET localhost:8080/countries/Albania: obtiene los detalles de Albania
+- POST localhost:8080/countries: crea un nuevo país con los valores recibidos en el cuerpo de la petición
+{
+"country":"Genovia",
+"population":9923,
+"continent":"Europa",
+"lifeExpectancy":43.8,
+"purchasingPower":974.58
+}
+- PUT localhost:8080/countries/Albania: actualiza los datos de Albania con los valores recibidos en el cuerpo de la petición
+{
+"population":3600200,
+"continent":"Europa",
+"lifeExpectancy":70.8,
+"purchasingPower":5937.58
+}
+- DELETE localhost:8080/countries/Albania: borra el documento que representa a Albania
